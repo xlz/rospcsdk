@@ -53,9 +53,9 @@ QEMU_OPTS="
 "
 
 set -e
-for dir in in out;
+for dir in in out; do
 	[ -p monitor.$dir ] || mkfifo monitor.$dir
-end
+done
 qemu-system-x86_64 $QEMU_OPTS "$@" &
 echo cont >monitor.in
 echo "spicec --host `hostname` --port $SPICE_PORT &"

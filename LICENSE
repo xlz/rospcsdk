@@ -19,3 +19,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Third party files
+-----------------
+
+Files mingw/{Makefile,cmake/*} are from http://wiki.ros.org/win_ros by Daniel Stonier <d.stonier AT gmail DOT com>, Yeong-Il Choe <yichoe AT yujinrobot DOT com>, licensed under BSD.
+
+src/voice_out.h is from Intel PC SDK and is redistributed under Intel PC SDK EULA.

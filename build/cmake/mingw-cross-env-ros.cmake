@@ -5,7 +5,7 @@
 # CMake Toolchain File: ${SYSROOT}/share/cmake/mingw-cross-env-conf.cmake
 ###############################################################################
 
-set(TOOLCHAIN_TUPLE x86_64-w64-mingw32)
+set(TOOLCHAIN_TUPLE x86_64-w64-mingw32.static)
 
 ###############################
 # Boost

@@ -6,7 +6,7 @@ ifdef MINGW_INSTALL_PREFIX
 else
   PREFIX=$(HOME)/mingw
 endif
-TUPLE=x86_64-w64-mingw32
+TUPLE=x86_64-w64-mingw32.static
 URL=https://github.com/mxe/mxe.git
 #URL=https://github.com/yujinrobot/mxe.git
 CMAKE_CACHE_FILE=$(PREFIX)/usr/${TUPLE}/share/cmake/mingw-cross-env-ros.cmake
